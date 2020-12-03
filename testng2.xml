@@ -10,6 +10,7 @@
 		<parameter name="deviceName" value="Any device name" />
 		<parameter name="systemPort" value="10000" />
 		<parameter name="chromeDriverPort" value="11000" />
+		<!--  -->
 
 		<classes>
 			<class name="com.qa.tests.LoginTests" />
