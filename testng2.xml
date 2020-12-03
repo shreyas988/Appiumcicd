@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite parallel="tests" name="Suite">
+	<listeners>
+		<listener class-name="com.qa.listeners.TestListener" />
+	</listeners>
+	<test name="Android">
+
+		<parameter name="platformName" value="Android" />
+		<parameter name="deviceName" value="Any device name" />
+		<parameter name="systemPort" value="10000" />
+		<parameter name="chromeDriverPort" value="11000" />
+
+		<classes>
+			<class name="com.qa.tests.LoginTests" />
+
+			<!-- <class name="com.qa.tests.ProductsTest"/> -->
+			<!-- <methods> <include name=invalidUsername"/> </methods> -->
+		</classes>
+	</test> <!-- Test -->
+	
+</suite> <!-- Suite -->

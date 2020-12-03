@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.listeners.TestListener"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Android(failed)">
+    <parameter name="chromeDriverPort" value="11000"/>
+    <parameter name="platformName" value="Android"/>
+    <parameter name="deviceName" value="Any device name"/>
+    <parameter name="systemPort" value="10000"/>
+    <classes>
+      <class name="com.qa.tests.LoginTests">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="invalidPassword"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.qa.tests.LoginTests -->
+    </classes>
+  </test> <!-- Android(failed) -->
+  <test thread-count="5" parallel="tests" name="iOS(failed)">
+    <parameter name="webKitDebugProxyPort" value="11001"/>
+    <parameter name="platformName" value="iOS"/>
+    <parameter name="deviceName" value="iPhone 11"/>
+    <parameter name="wdaLocalPort" value="10001"/>
+    <classes>
+      <class name="com.qa.tests.LoginTests">
+        <methods>
+          <include name="successLogin"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="beforeTest"/>
+          <include name="invalidPassword"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.qa.tests.LoginTests -->
+    </classes>
+  </test> <!-- iOS(failed) -->
+</suite> <!-- Failed suite [Suite] -->

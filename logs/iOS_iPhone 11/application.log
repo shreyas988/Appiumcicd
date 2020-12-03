@@ -1,0 +1,217 @@
+[logs/iOS_iPhone 11 INFO ] 2020-11-29 16:29:42.079 - iOS
+[logs/iOS_iPhone 11 INFO ] 2020-11-29 16:29:49.324 - Username entered
+[logs/iOS_iPhone 11 INFO ] 2020-11-29 16:29:52.576 - Password entered
+[logs/iOS_iPhone 11 INFO ] 2020-11-29 16:52:20.547 - iOS
+[logs/iOS_iPhone 11 INFO ] 2020-11-29 16:52:25.822 - Field Usernameis cleared
+[logs/iOS_iPhone 11 INFO ] 2020-11-29 16:52:27.032 - Element Usernameis visible
+[logs/iOS_iPhone 11 INFO ] 2020-11-29 16:52:29.802 - Element standard_useris sent value: standard_user
+[logs/iOS_iPhone 11 INFO ] 2020-11-29 16:52:29.803 - Entered with username : standard_user
+[logs/iOS_iPhone 11 INFO ] 2020-11-29 16:52:31.247 - Field Passwordis cleared
+[logs/iOS_iPhone 11 INFO ] 2020-11-29 16:52:31.248 - Entered with password : invalidpassword
+[logs/iOS_iPhone 11 INFO ] 2020-11-29 16:52:32.963 - Element LOGINis visible
+[logs/iOS_iPhone 11 INFO ] 2020-11-29 16:52:34.946 - Element LOGINis clicked
+[logs/iOS_iPhone 11 INFO ] 2020-11-29 16:52:34.947 - Login button is clicked
+[logs/iOS_iPhone 11 INFO ] 2020-11-29 16:52:36.583 - Element Password is requiredis visible
+[logs/iOS_iPhone 11 INFO ] 2020-11-29 16:52:37.509 - Text obtianed is : Password is required
+[logs/iOS_iPhone 11 INFO ] 2020-11-29 16:52:40.049 - Field Usernameis cleared
+[logs/iOS_iPhone 11 INFO ] 2020-11-29 16:52:41.370 - Element Usernameis visible
+[logs/iOS_iPhone 11 INFO ] 2020-11-29 16:52:43.842 - Element invalidusernameis sent value: invalidusername
+[logs/iOS_iPhone 11 INFO ] 2020-11-29 16:52:43.842 - Entered with username : invalidusername
+[logs/iOS_iPhone 11 INFO ] 2020-11-29 16:52:45.071 - Field Passwordis cleared
+[logs/iOS_iPhone 11 INFO ] 2020-11-29 16:52:45.071 - Entered with password : secret_sauce
+[logs/iOS_iPhone 11 INFO ] 2020-11-29 16:52:46.443 - Element LOGINis visible
+[logs/iOS_iPhone 11 INFO ] 2020-11-29 16:52:48.042 - Element LOGINis clicked
+[logs/iOS_iPhone 11 INFO ] 2020-11-29 16:52:48.042 - Login button is clicked
+[logs/iOS_iPhone 11 INFO ] 2020-11-29 16:52:49.415 - Element Password is requiredis visible
+[logs/iOS_iPhone 11 INFO ] 2020-11-29 16:52:50.070 - Text obtianed is : Password is required
+[logs/iOS_iPhone 11 INFO ] 2020-11-29 16:52:52.176 - Field Usernameis cleared
+[logs/iOS_iPhone 11 INFO ] 2020-11-29 16:52:53.347 - Element Usernameis visible
+[logs/iOS_iPhone 11 INFO ] 2020-11-29 16:52:54.863 - Element standard_useris sent value: standard_user
+[logs/iOS_iPhone 11 INFO ] 2020-11-29 16:52:54.864 - Entered with username : standard_user
+[logs/iOS_iPhone 11 INFO ] 2020-11-29 16:52:55.942 - Field Passwordis cleared
+[logs/iOS_iPhone 11 INFO ] 2020-11-29 16:52:55.942 - Entered with password : secret_sauce
+[logs/iOS_iPhone 11 INFO ] 2020-11-29 16:52:57.286 - Element LOGINis visible
+[logs/iOS_iPhone 11 INFO ] 2020-11-29 16:52:58.973 - Element LOGINis clicked
+[logs/iOS_iPhone 11 INFO ] 2020-11-29 16:52:58.973 - Login button is clicked
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:08:48.661 - iOS
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:08:52.883 - Field Usernameis cleared
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:08:53.771 - Element Usernameis visible
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:08:56.598 - Element standard_useris sent value: standard_user
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:08:56.599 - Entered with username : standard_user
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:08:57.626 - Field Passwordis cleared
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:08:58.793 - Element standard_useris visible
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:09:00.365 - Element standard_userinvalidpasswordis sent value: invalidpassword
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:09:00.366 - Entered with password : invalidpassword
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:09:01.673 - Element LOGINis visible
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:09:03.392 - Element LOGINis clicked
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:09:03.392 - Login button is clicked
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:09:04.733 - Element Password is requiredis visible
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:09:05.403 - Text obtianed is : Password is required
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:09:08.055 - Field Usernameis cleared
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:09:09.224 - Element Usernameis visible
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:09:10.765 - Element invalidusernameis sent value: invalidusername
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:09:10.765 - Entered with username : invalidusername
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:09:11.917 - Field Passwordis cleared
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:09:13.137 - Element invalidusernameis visible
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:09:14.755 - Element invalidusernamesecret_sauceis sent value: secret_sauce
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:09:14.756 - Entered with password : secret_sauce
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:09:16.360 - Element LOGINis visible
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:09:18.010 - Element LOGINis clicked
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:09:18.011 - Login button is clicked
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:09:19.406 - Element Password is requiredis visible
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:09:20.201 - Text obtianed is : Password is required
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:09:22.781 - Field Usernameis cleared
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:09:23.921 - Element Usernameis visible
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:09:25.441 - Element standard_useris sent value: standard_user
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:09:25.442 - Entered with username : standard_user
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:09:26.520 - Field Passwordis cleared
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:09:27.662 - Element standard_useris visible
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:09:29.231 - Element standard_usersecret_sauceis sent value: secret_sauce
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:09:29.231 - Entered with password : secret_sauce
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:09:30.555 - Element LOGINis visible
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:09:32.212 - Element LOGINis clicked
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:09:32.212 - Login button is clicked
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:14:31.170 - iOS
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:14:35.970 - Field Usernameis cleared
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:14:36.889 - Element Usernameis visible
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:14:39.565 - Element standard_useris sent value: standard_user
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:14:39.565 - Entered with username : standard_user
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:14:40.630 - Field Passwordis cleared
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:14:41.798 - Element Passwordis visible
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:14:44.061 - Element •••••••••••••••is sent value: invalidpassword
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:14:44.061 - Entered with password : invalidpassword
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:14:45.466 - Element LOGINis visible
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:14:47.597 - Element LOGINis clicked
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:14:47.598 - Login button is clicked
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:14:49.275 - Element Username and password do not match any user in this service.is visible
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:14:50.005 - Text obtianed is : Username and password do not match any user in this service.
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:14:52.931 - Field Usernameis cleared
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:14:54.209 - Element Usernameis visible
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:14:56.038 - Element invalidusernameis sent value: invalidusername
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:14:56.039 - Entered with username : invalidusername
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:14:58.714 - Field Passwordis cleared
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:14:59.850 - Element Passwordis visible
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:15:01.377 - Element ••••••••••••is sent value: secret_sauce
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:15:01.377 - Entered with password : secret_sauce
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:15:02.659 - Element LOGINis visible
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:15:04.256 - Element LOGINis clicked
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:15:04.257 - Login button is clicked
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:15:05.597 - Element Username and password do not match any user in this service.is visible
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:15:06.256 - Text obtianed is : Username and password do not match any user in this service.
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:15:08.878 - Field Usernameis cleared
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:15:10.037 - Element Usernameis visible
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:15:11.561 - Element standard_useris sent value: standard_user
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:15:11.561 - Entered with username : standard_user
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:15:14.112 - Field Passwordis cleared
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:15:15.283 - Element Passwordis visible
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:15:17.109 - Element ••••••••••••is sent value: secret_sauce
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:15:17.109 - Entered with password : secret_sauce
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 12:15:18.453 - Element LOGINis visible
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 18:58:08.337 - iOS
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 18:58:13.171 - Field Usernameis cleared
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 18:58:14.126 - Element Usernameis visible
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 18:58:17.345 - Element standard_useris sent value: standard_user
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 18:58:17.345 - Entered with username : standard_user
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 18:58:18.594 - Field Passwordis cleared
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 18:58:19.844 - Element Passwordis visible
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 18:58:22.185 - Element •••••••••••••••is sent value: invalidpassword
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 18:58:22.186 - Entered with password : invalidpassword
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 18:58:23.696 - Element LOGINis visible
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 18:58:25.549 - Element LOGINis clicked
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 18:58:25.550 - Login button is clicked
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 18:58:27.046 - Element Username and password do not match any user in this service.is visible
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 18:58:27.790 - Text obtianed is : Username and password do not match any user in this service.
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 18:58:30.898 - Field Usernameis cleared
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 18:58:32.086 - Element Usernameis visible
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 18:58:33.862 - Element invalidusernameis sent value: invalidusername
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 18:58:33.863 - Entered with username : invalidusername
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 18:58:36.593 - Field Passwordis cleared
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 18:58:37.765 - Element Passwordis visible
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 18:58:39.282 - Element ••••••••••••is sent value: secret_sauce
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 18:58:39.283 - Entered with password : secret_sauce
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 18:58:40.649 - Element LOGINis visible
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 18:58:42.428 - Element LOGINis clicked
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 18:58:42.428 - Login button is clicked
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 18:58:43.875 - Element Username and password do not match any user in this service.is visible
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 18:58:44.556 - Text obtianed is : Username and password do not match any user in this service.
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 18:58:47.613 - Field Usernameis cleared
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 18:58:48.790 - Element Usernameis visible
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 18:58:50.485 - Element standard_useris sent value: standard_user
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 18:58:50.486 - Entered with username : standard_user
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 18:58:53.187 - Field Passwordis cleared
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 18:58:54.448 - Element Passwordis visible
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 18:58:55.992 - Element ••••••••••••is sent value: secret_sauce
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 18:58:55.992 - Entered with password : secret_sauce
+[logs/iOS_iPhone 11 INFO ] 2020-11-30 18:58:57.415 - Element LOGINis visible
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:40:31.892 - iOS
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:40:36.768 - Field Usernameis cleared
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:40:37.689 - Element Usernameis visible
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:40:40.470 - Element standard_useris sent value: standard_user
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:40:40.470 - Entered with username : standard_user
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:40:41.580 - Field Passwordis cleared
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:40:42.736 - Element Passwordis visible
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:40:44.973 - Element •••••••••••••••is sent value: invalidpassword
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:40:44.974 - Entered with password : invalidpassword
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:40:46.353 - Element LOGINis visible
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:40:48.070 - Element LOGINis clicked
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:40:48.070 - Login button is clicked
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:40:49.631 - Element Username and password do not match any user in this service.is visible
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:40:50.372 - Text obtianed is : Username and password do not match any user in this service.
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:40:53.274 - Field Usernameis cleared
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:40:54.539 - Element Usernameis visible
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:40:56.353 - Element invalidusernameis sent value: invalidusername
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:40:56.353 - Entered with username : invalidusername
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:40:59.074 - Field Passwordis cleared
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:41:00.225 - Element Passwordis visible
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:41:01.658 - Element ••••••••••••is sent value: secret_sauce
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:41:01.658 - Entered with password : secret_sauce
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:41:02.974 - Element LOGINis visible
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:41:04.603 - Element LOGINis clicked
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:41:04.603 - Login button is clicked
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:41:05.970 - Element Username and password do not match any user in this service.is visible
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:41:06.655 - Text obtianed is : Username and password do not match any user in this service.
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:41:09.338 - Field Usernameis cleared
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:41:10.532 - Element Usernameis visible
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:41:12.119 - Element standard_useris sent value: standard_user
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:41:12.120 - Entered with username : standard_user
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:41:14.668 - Field Passwordis cleared
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:41:15.821 - Element Passwordis visible
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:41:17.408 - Element ••••••••••••is sent value: secret_sauce
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:41:17.409 - Entered with password : secret_sauce
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:41:18.711 - Element LOGINis visible
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:54:42.177 - iOS
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:54:46.620 - Field Usernameis cleared
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:54:47.441 - Element Usernameis visible
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:54:49.961 - Element standard_useris sent value: standard_user
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:54:49.961 - Entered with username : standard_user
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:54:50.984 - Field Passwordis cleared
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:54:52.125 - Element Passwordis visible
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:54:54.339 - Element •••••••••••••••is sent value: invalidpassword
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:54:54.339 - Entered with password : invalidpassword
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:54:55.774 - Element LOGINis visible
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:54:57.371 - Element LOGINis clicked
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:54:57.372 - Login button is clicked
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:54:58.702 - Element Username and password do not match any user in this service.is visible
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:54:59.360 - Text obtianed is : Username and password do not match any user in this service.
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:55:02.146 - Field Usernameis cleared
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:55:03.313 - Element Usernameis visible
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:55:04.854 - Element invalidusernameis sent value: invalidusername
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:55:04.855 - Entered with username : invalidusername
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:55:07.512 - Field Passwordis cleared
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:55:08.664 - Element Passwordis visible
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:55:10.225 - Element ••••••••••••is sent value: secret_sauce
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:55:10.225 - Entered with password : secret_sauce
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:55:11.562 - Element LOGINis visible
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:55:13.240 - Element LOGINis clicked
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:55:13.240 - Login button is clicked
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:55:14.680 - Element Username and password do not match any user in this service.is visible
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:55:15.370 - Text obtianed is : Username and password do not match any user in this service.
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:55:18.092 - Field Usernameis cleared
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:55:19.273 - Element Usernameis visible
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:55:20.826 - Element standard_useris sent value: standard_user
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:55:20.826 - Entered with username : standard_user
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:55:23.358 - Field Passwordis cleared
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:55:24.541 - Element Passwordis visible
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:55:26.077 - Element ••••••••••••is sent value: secret_sauce
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:55:26.077 - Entered with password : secret_sauce
+[logs/iOS_iPhone 11 INFO ] 2020-12-03 11:55:27.403 - Element LOGINis visible

@@ -1,0 +1,10 @@
+com/qa/pageobjects/SettingsScreen.class
+com/qa/utils/TestUtils.class
+com/qa/reports/ExtentReporter.class
+com/qa/pageobjects/ProductDetailsScreen.class
+com/qa/pageobjects/LoginScreen.class
+com/qa/listeners/TestListener.class
+com/qa/pageobjects/ProductsScreen.class
+com/qa/MenuScreen.class
+com/qa/TestEmulator.class
+com/qa/BaseTest.class
