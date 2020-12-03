@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite parallel="tests" name="Suite">
+	<listeners>
+		<listener class-name="com.qa.listeners.TestListener" />
+	</listeners>
+	
+	<test name="iOS">
+
+		<parameter name="platformName" value="iOS" />
+		<parameter name="deviceName" value="iPhone 11" />
+		<parameter name="wdaLocalPort" value="10001" />
+		<parameter name="webKitDebugProxyPort" value="11001" />
+
+
+		<classes>
+			<class name="com.qa.tests.LoginTests" />
+
+			<!-- <class name="com.qa.tests.ProductsTest"/> -->
+			<!-- <methods> <include name=invalidUsername"/> </methods> -->
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -172,3 +172,41 @@
 [logs/Android_Any device name INFO ] 2020-12-03 12:11:08.346 - Element is visible
 [logs/Android_Any device name INFO ] 2020-12-03 12:11:08.482 - Element is clicked
 [logs/Android_Any device name INFO ] 2020-12-03 12:11:08.483 - Login button is clicked
+[logs/Android_Any device name INFO ] 2020-12-03 15:10:09.070 - Android
+[logs/Android_Any device name INFO ] 2020-12-03 15:10:12.830 - Field Usernameis cleared
+[logs/Android_Any device name INFO ] 2020-12-03 15:10:12.942 - Element Usernameis visible
+[logs/Android_Any device name INFO ] 2020-12-03 15:10:14.045 - Element standard_useris sent value: standard_user
+[logs/Android_Any device name INFO ] 2020-12-03 15:10:14.046 - Entered with username : standard_user
+[logs/Android_Any device name INFO ] 2020-12-03 15:10:14.631 - Field Passwordis cleared
+[logs/Android_Any device name INFO ] 2020-12-03 15:10:14.725 - Element Passwordis visible
+[logs/Android_Any device name INFO ] 2020-12-03 15:10:15.829 - Element •••••••••••••••is sent value: invalidpassword
+[logs/Android_Any device name INFO ] 2020-12-03 15:10:15.830 - Entered with password : invalidpassword
+[logs/Android_Any device name INFO ] 2020-12-03 15:10:15.926 - Element is visible
+[logs/Android_Any device name INFO ] 2020-12-03 15:10:16.073 - Element is clicked
+[logs/Android_Any device name INFO ] 2020-12-03 15:10:16.074 - Login button is clicked
+[logs/Android_Any device name INFO ] 2020-12-03 15:10:16.859 - Element Username and password do not match any user in this service.is visible
+[logs/Android_Any device name INFO ] 2020-12-03 15:10:16.963 - Text obtianed is : Username and password do not match any user in this service.
+[logs/Android_Any device name INFO ] 2020-12-03 15:10:18.135 - Field Usernameis cleared
+[logs/Android_Any device name INFO ] 2020-12-03 15:10:18.231 - Element Usernameis visible
+[logs/Android_Any device name INFO ] 2020-12-03 15:10:18.824 - Element invalidusernameis sent value: invalidusername
+[logs/Android_Any device name INFO ] 2020-12-03 15:10:18.825 - Entered with username : invalidusername
+[logs/Android_Any device name INFO ] 2020-12-03 15:10:19.408 - Field Passwordis cleared
+[logs/Android_Any device name INFO ] 2020-12-03 15:10:19.491 - Element Passwordis visible
+[logs/Android_Any device name INFO ] 2020-12-03 15:10:20.077 - Element ••••••••••••is sent value: secret_sauce
+[logs/Android_Any device name INFO ] 2020-12-03 15:10:20.077 - Entered with password : secret_sauce
+[logs/Android_Any device name INFO ] 2020-12-03 15:10:20.159 - Element is visible
+[logs/Android_Any device name INFO ] 2020-12-03 15:10:20.281 - Element is clicked
+[logs/Android_Any device name INFO ] 2020-12-03 15:10:20.282 - Login button is clicked
+[logs/Android_Any device name INFO ] 2020-12-03 15:10:20.497 - Element Username and password do not match any user in this service.is visible
+[logs/Android_Any device name INFO ] 2020-12-03 15:10:20.675 - Text obtianed is : Username and password do not match any user in this service.
+[logs/Android_Any device name INFO ] 2020-12-03 15:10:21.345 - Field Usernameis cleared
+[logs/Android_Any device name INFO ] 2020-12-03 15:10:21.430 - Element Usernameis visible
+[logs/Android_Any device name INFO ] 2020-12-03 15:10:22.018 - Element standard_useris sent value: standard_user
+[logs/Android_Any device name INFO ] 2020-12-03 15:10:22.019 - Entered with username : standard_user
+[logs/Android_Any device name INFO ] 2020-12-03 15:10:22.590 - Field Passwordis cleared
+[logs/Android_Any device name INFO ] 2020-12-03 15:10:22.669 - Element Passwordis visible
+[logs/Android_Any device name INFO ] 2020-12-03 15:10:23.272 - Element ••••••••••••is sent value: secret_sauce
+[logs/Android_Any device name INFO ] 2020-12-03 15:10:23.273 - Entered with password : secret_sauce
+[logs/Android_Any device name INFO ] 2020-12-03 15:10:23.350 - Element is visible
+[logs/Android_Any device name INFO ] 2020-12-03 15:10:23.473 - Element is clicked
+[logs/Android_Any device name INFO ] 2020-12-03 15:10:23.474 - Login button is clicked
