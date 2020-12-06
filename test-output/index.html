@@ -162,13 +162,44 @@
                   <a name="invalidPassword">
                   </a> <!-- invalidPassword -->
                   <span class="method-name">invalidPassword</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [Username and password do not match any user in this service.new] but found [Username and password do not match any user in this service.]
-	at com.qa.tests.LoginTests.invalidPassword(LoginTests.java:115)
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.chained({By.AccessibilityId: test-Username})
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.clear(&lt;generated&gt;)
+	at com.qa.BaseTest.clearFields(BaseTest.java:326)
+	at com.qa.pageobjects.LoginScreen.enterUsername(LoginScreen.java:37)
+	at com.qa.tests.LoginTests.invalidPassword(LoginTests.java:99)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-... Removed 22 stack frames
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@35e9b3ad (tried for 1 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+	... 25 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.AccessibilityId: test-Username})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ALIPL0482.local&apos;, ip: &apos;2405:204:538f:2778:4df6:6902:1ce:e1a5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;14.0.1&apos;
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 27 more
+... Removed 16 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -178,7 +209,7 @@
                   </a> <!-- invalidPassword -->
                   <span class="method-name">invalidPassword</span>
                   <div class="stack-trace">java.lang.AssertionError: expected [Username and password do not match any user in this service.new] but found [Username and password do not match any user in this service.]
-	at com.qa.tests.LoginTests.invalidPassword(LoginTests.java:115)
+	at com.qa.tests.LoginTests.invalidPassword(LoginTests.java:116)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
@@ -198,12 +229,12 @@
 	at io.appium.java_client.ios.IOSElement$$EnhancerByCGLIB$$d311658.getText(&lt;generated&gt;)
 	at com.qa.BaseTest.clickElement(BaseTest.java:288)
 	at com.qa.pageobjects.LoginScreen.clickLoginButton(LoginScreen.java:53)
-	at com.qa.tests.LoginTests.successLogin(LoginTests.java:125)
+	at com.qa.tests.LoginTests.successLogin(LoginTests.java:126)
 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
 	at java.base/java.lang.Thread.run(Thread.java:832)
-Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@3b079676 (tried for 1 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@4821c612 (tried for 1 second(s) with 500 milliseconds interval)
 	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
 	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
@@ -212,7 +243,7 @@ Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: wait
 Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.id: test-LOGIN})
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;ALIPL0482.local&apos;, ip: &apos;2405:204:5686:8c4:e4ef:f328:1d0a:497c%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;14.0.1&apos;
+System info: host: &apos;ALIPL0482.local&apos;, ip: &apos;2405:204:538f:2778:4df6:6902:1ce:e1a5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.7&apos;, java.version: &apos;14.0.1&apos;
 Driver info: driver.version: IOSDriver
 	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
@@ -339,32 +370,32 @@ data.addRows(6);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'invalidusername')
 data.setCell(0, 2, 'com.qa.tests.LoginTests')
-data.setCell(0, 3, 16481);
+data.setCell(0, 3, 15103);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'invalidPassword')
 data.setCell(1, 2, 'com.qa.tests.LoginTests')
-data.setCell(1, 3, 15560);
+data.setCell(1, 3, 13680);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'successLogin')
 data.setCell(2, 2, 'com.qa.tests.LoginTests')
-data.setCell(2, 3, 14963);
+data.setCell(2, 3, 12717);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'invalidPassword')
+data.setCell(3, 1, 'invalidusername')
 data.setCell(3, 2, 'com.qa.tests.LoginTests')
-data.setCell(3, 3, 6793);
+data.setCell(3, 3, 5233);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'successLogin')
 data.setCell(4, 2, 'com.qa.tests.LoginTests')
-data.setCell(4, 3, 5580);
+data.setCell(4, 3, 5038);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'invalidusername')
+data.setCell(5, 1, 'invalidPassword')
 data.setCell(5, 2, 'com.qa.tests.LoginTests')
-data.setCell(5, 3, 4172);
+data.setCell(5, 3, 1989);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 53 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -379,21 +410,21 @@ return data;
               <span class="reporter-method-name">invalidPassword</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">This is sample screenshot</span>
-                <span class="reporter-method-output"><a href='/Users/shreyas/TDD/TDDFramework/Screenshots/Android_Any device name_30-11-2020-18-57-36/LoginTests/invalidPassword.png'> <img src='/Users/shreyas/TDD/TDDFramework/Screenshots/Android_Any device name_30-11-2020-18-57-36/LoginTests/invalidPassword.png' height='100' width='100'/></a></span>
+                <span class="reporter-method-output"><a href='/Users/shreyas/TDD/TDDFramework/Screenshots/Android_Any device name_05-12-2020-12-19-48/LoginTests/invalidPassword.png'> <img src='/Users/shreyas/TDD/TDDFramework/Screenshots/Android_Any device name_05-12-2020-12-19-48/LoginTests/invalidPassword.png' height='100' width='100'/></a></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
               <span class="reporter-method-name">invalidPassword</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">This is sample screenshot</span>
-                <span class="reporter-method-output"><a href='/Users/shreyas/TDD/TDDFramework/Screenshots/iOS_iPhone 11_30-11-2020-18-57-36/LoginTests/invalidPassword.png'> <img src='/Users/shreyas/TDD/TDDFramework/Screenshots/iOS_iPhone 11_30-11-2020-18-57-36/LoginTests/invalidPassword.png' height='100' width='100'/></a></span>
+                <span class="reporter-method-output"><a href='/Users/shreyas/TDD/TDDFramework/Screenshots/iOS_iPhone 11_05-12-2020-12-19-48/LoginTests/invalidPassword.png'> <img src='/Users/shreyas/TDD/TDDFramework/Screenshots/iOS_iPhone 11_05-12-2020-12-19-48/LoginTests/invalidPassword.png' height='100' width='100'/></a></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
               <span class="reporter-method-name">successLogin</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">This is sample screenshot</span>
-                <span class="reporter-method-output"><a href='/Users/shreyas/TDD/TDDFramework/Screenshots/iOS_iPhone 11_30-11-2020-18-57-36/LoginTests/successLogin.png'> <img src='/Users/shreyas/TDD/TDDFramework/Screenshots/iOS_iPhone 11_30-11-2020-18-57-36/LoginTests/successLogin.png' height='100' width='100'/></a></span>
+                <span class="reporter-method-output"><a href='/Users/shreyas/TDD/TDDFramework/Screenshots/iOS_iPhone 11_05-12-2020-12-19-48/LoginTests/successLogin.png'> <img src='/Users/shreyas/TDD/TDDFramework/Screenshots/iOS_iPhone 11_05-12-2020-12-19-48/LoginTests/successLogin.png' height='100' width='100'/></a></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -418,117 +449,117 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest(iOS, iPhone 11, AndroidOnly, AndroidOnly, 10001, 11001)</span>
-                <span class="method-start">1097 ms</span>
+                <span class="method-start">1757 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest(Android, Any device name, 10000, 11000, iOSOnly, iOSOnly)</span>
-                <span class="method-start">1098 ms</span>
+                <span class="method-start">1758 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">15398 ms</span>
+                <span class="method-start">7773 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void com.qa.tests.LoginTests.invalidPassword())</span>
-                <span class="method-start">17379 ms</span>
+                <span class="method-start">11261 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">invalidPassword</span>
-                <span class="method-start">17514 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod(public void com.qa.tests.LoginTests.invalidPassword())</span>
-                <span class="method-start">24846 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod(public void com.qa.tests.LoginTests.invalidusername())</span>
-                <span class="method-start">24848 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">invalidusername</span>
-                <span class="method-start">24849 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod(public void com.qa.tests.LoginTests.invalidusername())</span>
-                <span class="method-start">29022 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod(public void com.qa.tests.LoginTests.successLogin())</span>
-                <span class="method-start">29023 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">successLogin</span>
-                <span class="method-start">29024 ms</span>
+                <span class="method-start">11435 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">33468 ms</span>
+                <span class="method-start">12994 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod(public void com.qa.tests.LoginTests.successLogin())</span>
-                <span class="method-start">34606 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">afterClass</span>
-                <span class="method-start">34607 ms</span>
-              </div> <!-- configuration-class after -->
-              <div class="configuration-test after">
-                <span class="method-name">afterTest</span>
-                <span class="method-start">34608 ms</span>
-              </div> <!-- configuration-test after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void com.qa.tests.LoginTests.invalidPassword())</span>
-                <span class="method-start">37340 ms</span>
+                <span class="method-start">15395 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">invalidPassword</span>
-                <span class="method-start">37356 ms</span>
+                <span class="method-start">15432 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod(public void com.qa.tests.LoginTests.invalidPassword())</span>
-                <span class="method-start">53197 ms</span>
+                <span class="method-start">18236 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void com.qa.tests.LoginTests.invalidusername())</span>
-                <span class="method-start">53199 ms</span>
+                <span class="method-start">18238 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">invalidusername</span>
-                <span class="method-start">53201 ms</span>
+                <span class="method-start">18239 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod(public void com.qa.tests.LoginTests.invalidusername())</span>
-                <span class="method-start">69684 ms</span>
+                <span class="method-start">23473 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void com.qa.tests.LoginTests.successLogin())</span>
-                <span class="method-start">69685 ms</span>
+                <span class="method-start">23475 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">successLogin</span>
+                <span class="method-start">23476 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(public void com.qa.tests.LoginTests.invalidPassword())</span>
+                <span class="method-start">25323 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.qa.tests.LoginTests.invalidusername())</span>
+                <span class="method-start">25324 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidusername</span>
+                <span class="method-start">25325 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(public void com.qa.tests.LoginTests.successLogin())</span>
+                <span class="method-start">28515 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">28516 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">28517 ms</span>
+              </div> <!-- configuration-test after -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(public void com.qa.tests.LoginTests.invalidusername())</span>
+                <span class="method-start">40429 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.qa.tests.LoginTests.successLogin())</span>
+                <span class="method-start">40430 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">successLogin</span>
-                <span class="method-start">69686 ms</span>
+                <span class="method-start">40431 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod(public void com.qa.tests.LoginTests.successLogin())</span>
-                <span class="method-start">84910 ms</span>
+                <span class="method-start">53416 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">84913 ms</span>
+                <span class="method-start">53416 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">84913 ms</span>
+                <span class="method-start">53416 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuite</span>
-                <span class="method-start">85989 ms</span>
+                <span class="method-start">54510 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
